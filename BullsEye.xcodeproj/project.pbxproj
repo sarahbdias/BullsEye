@@ -11,8 +11,10 @@
 		30AA07431A48A6E000CE044C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AA07421A48A6E000CE044C /* ViewController.swift */; };
 		30AA07461A48A6E000CE044C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AA07441A48A6E000CE044C /* Main.storyboard */; };
 		30AA07481A48A6E000CE044C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AA07471A48A6E000CE044C /* Images.xcassets */; };
-		30AA074B1A48A6E000CE044C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AA07491A48A6E000CE044C /* LaunchScreen.xib */; };
 		30AA07571A48A6E000CE044C /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AA07561A48A6E000CE044C /* BullsEyeTests.swift */; };
+		30C040611A5B392E00E97FAD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C040601A5B392E00E97FAD /* AboutViewController.swift */; };
+		30C040631A5C808F00E97FAD /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 30C040621A5C808F00E97FAD /* BullsEye.html */; };
+		30EB5A0A1A5DA6EF005984BE /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30EB5A091A5DA6EF005984BE /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +34,12 @@
 		30AA07421A48A6E000CE044C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30AA07451A48A6E000CE044C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30AA07471A48A6E000CE044C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		30AA074A1A48A6E000CE044C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		30AA07501A48A6E000CE044C /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AA07551A48A6E000CE044C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30AA07561A48A6E000CE044C /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		30C040601A5B392E00E97FAD /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		30C040621A5C808F00E97FAD /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		30EB5A091A5DA6EF005984BE /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "../Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,13 @@
 		30AA073D1A48A6E000CE044C /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				30C040621A5C808F00E97FAD /* BullsEye.html */,
 				30AA07401A48A6E000CE044C /* AppDelegate.swift */,
 				30AA07421A48A6E000CE044C /* ViewController.swift */,
+				30EB5A091A5DA6EF005984BE /* Launch Screen.xib */,
 				30AA07441A48A6E000CE044C /* Main.storyboard */,
+				30C040601A5B392E00E97FAD /* AboutViewController.swift */,
 				30AA07471A48A6E000CE044C /* Images.xcassets */,
-				30AA07491A48A6E000CE044C /* LaunchScreen.xib */,
 				30AA073E1A48A6E000CE044C /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -193,7 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30AA07461A48A6E000CE044C /* Main.storyboard in Resources */,
-				30AA074B1A48A6E000CE044C /* LaunchScreen.xib in Resources */,
+				30EB5A0A1A5DA6EF005984BE /* Launch Screen.xib in Resources */,
+				30C040631A5C808F00E97FAD /* BullsEye.html in Resources */,
 				30AA07481A48A6E000CE044C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C040611A5B392E00E97FAD /* AboutViewController.swift in Sources */,
 				30AA07431A48A6E000CE044C /* ViewController.swift in Sources */,
 				30AA07411A48A6E000CE044C /* AppDelegate.swift in Sources */,
 			);
@@ -242,14 +250,6 @@
 				30AA07451A48A6E000CE044C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		30AA07491A48A6E000CE044C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30AA074A1A48A6E000CE044C /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -347,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -407,6 +409,7 @@
 				30AA075C1A48A6E000CE044C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30AA075D1A48A6E000CE044C /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +418,7 @@
 				30AA075F1A48A6E000CE044C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
